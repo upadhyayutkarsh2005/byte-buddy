@@ -106,7 +106,7 @@ with st.sidebar:
     st.header("⚙️ Configuration")
     selected_model = st.selectbox(
         "Choose Model",
-        ["version-1", "version-2"],
+        ["deepseek-r1:1.5b", "deepseek-r1:3b"],
         index=0
     )
     st.divider()
